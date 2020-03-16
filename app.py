@@ -12,7 +12,9 @@ server = flask.Flask(__name__)
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets, server=server)
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets, server=server, title="Covid-19 Reports")
+
+# app.title = "Covid-19 Reports"
 
 colors = {
     'background': '#ffffff',
