@@ -54,9 +54,10 @@ Coronavirus disease (COVID-19) is a new strain that was discovered in 2019 and h
 """
 
 acknowledge = """
-## [Project Repo](https://github.com/kongkip/Covid-19_Visualization)
+
 ## Acknowledgement:
 
+* [Project Repo](https://github.com/kongkip/Covid-19_Visualization)
 * Data from [John Hopkins University Repo](https://github.com/CSSEGISandData/COVID-19)
 * [WHO](https://www.who.int/)
 """
