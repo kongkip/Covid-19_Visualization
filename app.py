@@ -14,8 +14,6 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets, server=server)
 
-app.title = "Covid-19 Reports"
-
 colors = {
     'background': '#ffffff',
     'text': '#111111'
@@ -63,6 +61,8 @@ acknowledge = """
 """
 
 # %%
+app.title = "Covid-19 Reports"
+
 app.layout = html.Div(
     style={'backgroundColor': colors['background']},
     children=[
