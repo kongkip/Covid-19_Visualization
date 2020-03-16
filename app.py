@@ -112,7 +112,7 @@ app.layout = html.Div(
                 "margin-top": 60,
                 "margin-left": 50,
                 "margin-right": 50,
-                "color": "#0000FF"}
+                "color": colors['text']}
         ),
 
         dcc.Markdown(
