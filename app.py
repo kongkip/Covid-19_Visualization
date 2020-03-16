@@ -48,7 +48,7 @@ Coronavirus disease (COVID-19) is a new strain that was discovered in 2019 and h
 * Kidney failure, and
 * Death
 
-## This dashboard to give you updates on reported cases
+## This dashboard gives you updates on reported cases
 * Keep Calm and Wash your hands
 * Select in the dropdown menu below the country of interest; included inside - Cruise Ship
 """
