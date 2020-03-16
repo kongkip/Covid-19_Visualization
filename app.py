@@ -4,11 +4,15 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
-from get_data import filter_by_country, get_coutries
+from get_data import filter_by_country, get_countries
+import flask
+
+server = flask.Flask(__name__)
+
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets, server=server)
 
 colors = {
     'background': '#ffffff',
