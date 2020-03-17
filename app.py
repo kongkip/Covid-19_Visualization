@@ -139,7 +139,7 @@ def update_country(country):
                 mode='markers',
                 opacity=0.7,
                 marker={
-                    'size': 15,
+                    'size': 7,
                     'line': {'width': 0.5, 'color': 'white'}
                 },
                 name="Confirmed"
@@ -150,7 +150,7 @@ def update_country(country):
                 mode='markers',
                 opacity=0.7,
                 marker={
-                    'size': 15,
+                    'size': 7,
                     'line': {'width': 0.5, 'color': 'white'}
                 },
                 name="Deaths"
@@ -161,7 +161,7 @@ def update_country(country):
                 mode='markers',
                 opacity=0.7,
                 marker={
-                    'size': 15,
+                    'size': 7,
                     'line': {'width': 0.5, 'color': 'white'}
                 },
                 name="Recovered"
