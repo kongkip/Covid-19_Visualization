@@ -9,11 +9,11 @@ Coronavirus disease (COVID-19) is a new strain that was discovered in 2019 and h
 * Fever
 * Cough
 * Shortness of Breath, and
-* Breathing Deficulties
+* Breathing Difficulties
 
 ##### In severe cases can cause:
 * pneumonia
-* severe acute respirtory syndrome
+* severe acute respiratory syndrome
 * Kidney failure, and
 * Death
 

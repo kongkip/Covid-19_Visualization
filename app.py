@@ -88,22 +88,26 @@ def build_tabs():
                                     """
                                     # About the Virus
                                     [WHO explains](https://www.who.int/health-topics/coronavirus)
-                                    Coronaviruses (CoV) are a large family of viruses that cause illness ranging from the common cold to more severe 
-                                    diseases such as Middle East Respiratory Syndrome (MERS-CoV) and Severe Acute Respiratory Syndrome (SARS-CoV). 
-                                    Coronavirus disease (COVID-19) is a new strain that was discovered in 2019 and has not been previously identified in humans.
+                                
+                                    Coronaviruses (CoV) are a large family of viruses that cause illness ranging from 
+                                    the common cold to more severe diseases such as Middle East Respiratory Syndrome 
+                                    (MERS-CoV) and Severe Acute Respiratory Syndrome (SARS-CoV). 
+                                    
+                                    Coronavirus disease (COVID-19) is a new strain that was discovered in 2019 and 
+                                    has not been previously identified in humans. 
+                                    
                                     ##### Common signs of infection include respiratory symptoms:
                                     * Fever
                                     * Cough
                                     * Shortness of Breath, and
-                                    * Breathing Dificulties
+                                    * Breathing Difficulties
                                     ##### In severe cases can cause:
                                     * pneumonia
-                                    * severe acute respirtory syndrome
+                                    * severe acute respiratory syndrome
                                     * Kidney failure, and
                                     * Death
-                                    ## This dashboard gives you updates on reported cases
+                                    ### This dashboard gives you updates on reported cases
                                     * Keep Calm and Wash your hands
-
 
                                     ## Acknowledgement:
                                     * [Project Repo](https://github.com/kongkip/Covid-19_Visualization)

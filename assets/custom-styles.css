@@ -579,7 +579,7 @@ body {
 }
 
 #info {
-  margin-top: 40%;
+  padding-top: 1%;
   margin-left: 5%;
   width: 70%;
 }
@@ -598,7 +598,7 @@ body {
   padding-left: 5%;
 }
 #explanation {
-    padding-top: 2%;
+    padding-top: 1%;
     padding-left: 5%;
 }
 
