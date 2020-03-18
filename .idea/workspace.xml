@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="40da1a83-0702-4e52-bbfe-bdbe9cda0833" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/covid-19_visualization.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/covid-19_visualization.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +13,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="d308d178-19ff-4b7a-8dd7-90df143e70b6" />
   <component name="ProjectId" id="1ZE4yowkmqp2Kvs6Mfh9vrHrAdX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -23,7 +24,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Work/Tambua/T-platform Research/dsp-imaging-box/ali" />
   </component>
   <component name="RunManager">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -78,7 +79,9 @@
       <updated>1584391176194</updated>
       <workItem from="1584391178060" duration="5380000" />
       <workItem from="1584450657906" duration="3982000" />
-      <workItem from="1584462855788" duration="753000" />
+      <workItem from="1584462855788" duration="1712000" />
+      <workItem from="1584518280087" duration="369000" />
+      <workItem from="1584518694368" duration="14000" />
     </task>
     <servers />
   </component>
@@ -86,26 +89,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="875" height="222" key="GridCell.Tab.0.bottom" timestamp="1584463609260">
+    <state x="1075" y="332" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584518302866">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="875" height="222" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1584463609260" />
-    <state width="875" height="222" key="GridCell.Tab.0.center" timestamp="1584463609259">
+    <state x="1075" y="332" width="624" height="533" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1584518302866" />
+    <state x="870" y="325" width="424" height="491" key="FileChooserDialogImpl" timestamp="1584518575074">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="875" height="222" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1584463609259" />
-    <state width="875" height="222" key="GridCell.Tab.0.left" timestamp="1584463609259">
+    <state x="870" y="325" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1584518575074" />
+    <state width="875" height="222" key="GridCell.Tab.0.bottom" timestamp="1584473962639">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="875" height="222" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1584463609259" />
-    <state width="875" height="222" key="GridCell.Tab.0.right" timestamp="1584463609259">
+    <state width="875" height="222" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1584473962639" />
+    <state width="875" height="222" key="GridCell.Tab.0.center" timestamp="1584473962639">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="875" height="222" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1584463609259" />
-    <state x="1052" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1584462856979">
+    <state width="875" height="222" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1584473962639" />
+    <state width="875" height="222" key="GridCell.Tab.0.left" timestamp="1584473962639">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1052" y="381" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1584462856979" />
+    <state width="875" height="222" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1584473962639" />
+    <state width="875" height="222" key="GridCell.Tab.0.right" timestamp="1584473962639">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="875" height="222" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1584473962639" />
+    <state x="1052" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1584518280794">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1052" y="381" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1584518280794" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Covid_19$app.coverage" NAME="app Coverage Results" MODIFIED="1584463609241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

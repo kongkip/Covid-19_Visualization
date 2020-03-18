@@ -21,3 +21,6 @@ Coronavirus disease (COVID-19) is a new strain that was discovered in 2019 and h
 This is an app build with dash, it explains to users what Covid-19 is,
 users are able to select country of origin to update the data dynamically
 also reports the current stats e.g death and recovery rate
+
+
+![](pics/project_gif.gif)
