@@ -46,10 +46,7 @@ def prepare_data(case):
 
 
 #  filter data by country
-def filter_by_country(country, confirmed, deaths, recovered):
-    confirmed_prepared = prepare_data(confirmed)
-    deaths_prepared = prepare_data(deaths)
-    recovered_prepared = prepare_data(recovered)
+def filter_by_country(country, confirmed_prepared, deaths_prepared, recovered_prepared):
     country_all = pd.DataFrame(
         data=
         confirmed_prepared[country].values,

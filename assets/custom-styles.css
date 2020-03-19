@@ -131,6 +131,7 @@ body {
 
 #tabs {
   width: 100%;
+  height: fit-content;
 }
 
 .custom-tabs {
@@ -162,10 +163,12 @@ body {
 
 #Specs-tab.custom-tab {
   margin-right: 3px;
+  height: fit-content;
 }
 
 #Control-chart-tab.custom-tab {
   margin-left: 3px;
+  height: fit-content;
 }
 
 .section-banner {
@@ -601,6 +604,11 @@ body {
     padding-top: 1%;
     padding-left: 5%;
 }
+
+#total-cases {
+  padding-left: 5%;
+}
+
 
 /*
   ##Device = Most of the Smartphones Mobiles / ipad (Portrait)

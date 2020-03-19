@@ -8,6 +8,7 @@ import dash_daq as daq
 from get_data import filter_by_country, get_countries
 import flask
 import pathlib
+from get_data import prepare_data
 
 server = flask.Flask(__name__)
 
@@ -38,6 +39,14 @@ recovered = pd.read_csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-
                         "/csse_covid_19_time_series/time_series_19-covid-Recovered.csv")
 
 countries = confirmed["Country/Region"].unique()
+
+confirmed_prepared = prepare_data(confirmed)
+deaths_prepared = prepare_data(deaths)
+recovered_prepared = prepare_data(recovered)
+
+total_confirmed = confirmed_prepared.tail(1).sum(axis=1)[0]
+total_deaths = deaths_prepared.tail(1).sum(axis=1)[0]
+total_recovered = recovered_prepared.tail(1).sum(axis=1)[0]
 
 
 def build_banner():
@@ -128,6 +137,15 @@ def build_tabs():
                         className="custom-tab",
                         selected_className="custom-tab--selected",
                         children=[
+                            dcc.Markdown(
+                                id="total-cases",
+                                children=["""
+                                    ### Total cases : {}
+                                    ### Total Deaths : {}
+                                    ### Total Recovered : {}
+                                    """.format(total_confirmed, total_deaths, total_recovered)
+                                          ]
+                            ),
                             dcc.Dropdown(
                                 id="country",
                                 options=[
@@ -168,7 +186,7 @@ app.layout = html.Div(
     [Input("country", "value")]
 )
 def update_country(country):
-    df = filter_by_country(country, confirmed, deaths, recovered)
+    df = filter_by_country(country, confirmed_prepared, deaths_prepared, recovered_prepared)
     return {
         'data': [
             dict(
@@ -227,7 +245,7 @@ def update_country(country):
     [Input("country", "value")]
 )
 def explain(country):
-    df = filter_by_country(country, confirmed, deaths, recovered)
+    df = filter_by_country(country, confirmed_prepared, deaths_prepared, recovered_prepared)
 
     confirmed_current = df["Confirmed"].values[-1]
     deaths_current = df["Deaths"].values[-1]
@@ -250,4 +268,3 @@ def explain(country):
 
 if __name__ == "__main__":
     app.run_server(debug=False)
-
