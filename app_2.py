@@ -201,8 +201,8 @@ def explain(country):
     active_cases = df["Active_Cases"].values[0]
     serious_cases = df["Serious_Critical"].values[0]
 
-    death_rate = (deaths_current / confirmed_current) * 100
-    recovery_rate = (recovered_current / confirmed_current) * 100
+    death_rate = round((deaths_current / confirmed_current) * 100,3)
+    recovery_rate = round((recovered_current / confirmed_current) * 100, 3)
     return u""" #### {} Current Reports: 
 
     * Current Confirmed : {}
