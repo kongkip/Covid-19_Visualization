@@ -36,6 +36,10 @@ suffix_indicator = "_indicator"
 all_data = get_all_data()
 countries = all_data["Country/Other"].unique()[:193]
 
+word_cases = int(sum(all_data["Total_Cases"][:193]))
+word_deaths = int(sum(all_data["Total_Deaths"][:193]))
+world_recoveries = int(sum(all_data["Total_Recovered"][:193]))
+
 
 def build_banner():
     return html.Div(
@@ -125,15 +129,15 @@ def build_tabs():
                         className="custom-tab",
                         selected_className="custom-tab--selected",
                         children=[
-                            # dcc.Markdown(
-                            #     id="total-cases",
-                            #     children=["""
-                            #         ### Total cases : {}
-                            #         ### Total Deaths : {}
-                            #         ### Total Recovered : {}
-                            #         """.format(total_confirmed, total_deaths, total_recovered)
-                            #               ]
-                            # ),
+                            dcc.Markdown(
+                                id="total-cases",
+                                children=["""
+                                    ### Total  World Cases : {}
+                                    ### Total World Deaths : {}
+                                    ### Total World Recoveries : {}
+                                    """.format(word_cases, word_deaths, world_recoveries)
+                                          ]
+                            ),
                             dcc.Dropdown(
                                 id="country",
                                 options=[
